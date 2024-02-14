@@ -12,14 +12,14 @@ toc: true
 This blog its about the Cheat Engine Tutorial and other basic set up. 
 * First 8 challenges of the tutorial are just too much simple, refering with search for Float, Double, 4-Bytes, etc.
 
-### Code Finder
+## Code Finder
 
 Its a value change every time the game restart, we need to go and look up what assembly code its used to modify that address. ![Code Finder](image-9.png). Continue playing the game we see the instruction 
 ![Code Finder](image-10.png)
 Go to source code, and change the instruction to NOPs.
 ![Alt text](image-11.png)
 
-### Pointers
+## Pointers
 
 We need to search for a pointer because the address itself will change, the same process before we found the same code ```mov [edx], eax``` but the diferences its the square bracket, this means that the value of eax its moved to the address point by the value on edx `[edx]`, not in edx itself. 
 So in order to find the address of the pointer that holds the address of the 4 Bytes with value 987, we will scan for that address.
@@ -29,13 +29,15 @@ We found an its Green so its Static
 We add this as a Pointer on Cheat Engine using the add address Manually function
 ![Pointer](image-14.png)
 
-### Code Injection 
+## Code Injection 
+
 Delete an instruction using an automated script with Code Injection Template.
 ![CodeInjectio](image-15.png)
 Changing sub for add, we are goint to health besided receive damage. 
 Remove the original code.
 
-### Multilevel Pointers
+## Multilevel Pointers
+
 This its where the magic begin, find each level of the pointer trace back until get the static base address. 
 Like a pointer that point  to a pointer and still with 4 of depth 
 
@@ -57,7 +59,7 @@ With Find what access to this address we will find the offset and then de addres
 
 ![Alt text](image-19.png)
  
-### Shared Code 
+## Shared Code 
 
  This step will explain how to deal with code that is used for other object of the same type
 * First its find the base address of the Player 1 object health, take in mind the offset
