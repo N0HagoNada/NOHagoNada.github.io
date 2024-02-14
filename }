@@ -2,11 +2,10 @@
 layout: post
 title: Hello World
 date: 2024-02-12 02:10 -0500
-published: false
+published: true
 tags: [malware]
 categories: ["Red Team"]
 img_path: /assets/img/TestPost/
-toc: true
 ---
 
 
