@@ -4,8 +4,8 @@ title: 0xBOverchunked
 date: 2024-03-01 18:27 -0500
 img_path: /assets/img/0xBOcerchunked/
 published: true
-categories: ["Hack The Box"]
-tags: ["sqli", "CTF","Web Challenge"]
+categories: ["Hack The Box","Web Challenge"]
+tags: ["SQLi", "CTF"]
 toc: true
 ---
 # 0xB0verchunked

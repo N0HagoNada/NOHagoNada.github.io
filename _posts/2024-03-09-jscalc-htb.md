@@ -4,8 +4,8 @@ title: jscalc HTB
 date: 2024-03-09 18:11 -0500
 img_path: /assets/img/jscale/
 published: true
-categories: ["Hack The Box"]
-tags: ["RCE", "NodeJs","Web Challenge"]
+categories: ["Hack The Box","Web Challenge"]
+tags: ["RCE", "NodeJs"]
 toc: true
 ---
 # jscalc

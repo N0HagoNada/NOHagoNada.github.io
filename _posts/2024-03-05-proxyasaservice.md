@@ -4,8 +4,8 @@ title: ProxyAsAService
 date: 2024-03-05 18:38 -0500
 img_path: /assets/img/proxyasaService/
 published: true
-categories: ["Hack The Box"]
-tags: ["Flask", "SSRF","Web Challenge"]
+categories: ["Hack The Box","Web Challenge"]
+tags: ["Flask", "SSRF"]
 toc: true
 ---
 # Challenge ProxyAsAService
