@@ -4,7 +4,7 @@ title: EasterBunny
 date: 2024-04-06 19:02 -0400
 img_path: /assets/img/easterBunny/
 published: true
-categories: ["Hack The Box", "Web Challenge"]
+categories: ["Web Challenge","Hack The Box"]
 tags: ["Web Cache Poisonning", "Host Header Attack","XSS"]
 toc: true
 ---

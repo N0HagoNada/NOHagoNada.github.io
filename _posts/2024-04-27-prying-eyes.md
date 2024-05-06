@@ -4,7 +4,7 @@ title: Prying Eyes
 date: 2024-04-27 15:57 -0400
 img_path: /assets/img/pryingEyes/
 published: true
-categories: ["Hack The Box", "Web Challenge"]
+categories: ["Web Challenge","Hack The Box",]
 tags: ["CVE-2022-44268", "RCE via parameter injection","NodeJS Debugging"]
 toc: true
 ---
