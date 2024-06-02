@@ -303,6 +303,30 @@ The XML-RPC suffer from multiples downsides:
 
 The API used in the UI of the blog, to interact with this developers send a GET or POST request to ``admin-ajax.php`` file, located in the ``wp-admin`` folder. Authentication is handled by the cookie we already mention. 
 
+```javascritp
+
+var requestData = {
+  action: 'my_custom_ajax_action', // The action to be performed on the server-side
+  data_param1: 'value1',
+  data_param2: 'value2',
+};
+
+// Send the Ajax request to admin-ajax.php
+jQuery.post({
+  url: '/wp-admin/admin-ajax.php', // Path to the admin-ajax.php endpoint
+  data: requestData, // Data to be sent with the request
+  dataType: 'json', // The expected data type of the response
+  success: function(response) {
+    // Handle the response from the server
+    console.log('Response:', response);
+  },
+  error: function(error) {
+    // Handle errors, if any
+    console.error('Error:', error);
+  }
+});
+
+```
 When a request is received and if the ``action`` parameter value matches with an AJAX action (as defined in ``wp-admin/admin-ajax.php`` and implemented in ``wp-admin/includes/ajax-actions.php``), this action is triggered, and the result is served as a response.
 
 ##### **REST API**
