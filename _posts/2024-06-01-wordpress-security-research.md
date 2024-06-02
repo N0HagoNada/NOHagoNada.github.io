@@ -303,7 +303,7 @@ The XML-RPC suffer from multiples downsides:
 
 The API used in the UI of the blog, to interact with this developers send a GET or POST request to ``admin-ajax.php`` file, located in the ``wp-admin`` folder. Authentication is handled by the cookie we already mention. 
 
-```javascritp
+```javascript
 
 var requestData = {
   action: 'my_custom_ajax_action', // The action to be performed on the server-side
