@@ -29,7 +29,7 @@ adb pull /data/app/~~p_54bM-A63QkAZxdaHHILQ==/com.mobilehackinglab.challenge-AfK
 Then we can analyze the **AndroidManifest.xml** file
 
 - Find one activity besides the MainActivity exported explicity and with a *intent-filter*.
-- A receiver with the exported tag on true and four *intent-filter* defined inside.
+- A receiver with the exported tag on true and an *intent-filter* defined inside.
 
 ![Activity2](image.png)
 
