@@ -4,7 +4,7 @@ title: Cheat Engine Tutorial
 date: 2023-10-08 17:04:48 
 categories: [Game Funning]
 tag: ["Cheat Engine", Squally, Assembler, "Low Level"]
-img_path: /assets/img/First/  
+img_path: /assets/img/First/
 toc: true 
 ---
 

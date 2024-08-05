@@ -4,7 +4,7 @@ title: Frida Labs
 date: 2024-03-29 03:57 -0400
 img_path: /assets/img/FridaLabs/
 published: true
-categories: ["Mobile Challenge"]
+categories: ["Mobile Challenge","CTF Frida Labs"]
 tags: ["Frida", "dinamic analysis","Android"]
 toc: true
 ---

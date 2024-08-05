@@ -10,8 +10,10 @@ toc: true
 ---
 # CTF Wizer Challenge
 Well i ended on 33 place, I enjoy both practition and real challenges
+
 ## Practice Mode 
 This was the practice exercise, which i manage to solve 3 of 6.
+
 ### **JWT Authentication**
 
 ```javascript
