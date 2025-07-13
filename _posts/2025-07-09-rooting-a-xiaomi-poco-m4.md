@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rooting Xiaomi Poco M4
-date: 2024-12-13 00:22 -0500
+date: 2025-07-07 00:22 -0500
 img_path: /assets/img/rootXiaomi/
 published: true
 categories: ["Mobile Challenge"]
