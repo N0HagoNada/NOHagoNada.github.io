@@ -2,7 +2,7 @@
 layout: post
 title: Accessing Resources
 date: 2026-05-24 20:43 -0400
-published: false
+published: true
 categories: ["Reversing Challenge","Pwn College"]
 tags: ["CIMG Images", "Static analysis"]
 toc: true

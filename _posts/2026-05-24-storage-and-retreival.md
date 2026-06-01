@@ -2,7 +2,7 @@
 layout: post
 title: Storage and Retreival
 date: 2026-05-24 20:42 -0400
-published: false
+published: true
 categories: ["Reversing Challenge","Pwn College"]
 tags: ["CIMG Images", "Static analysis"]
 toc: true
