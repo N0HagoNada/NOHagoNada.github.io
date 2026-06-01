@@ -2,7 +2,7 @@
 layout: post
 title: First Overflow Hard
 date: 2026-05-31 22:41 -0400
-published: false
+published: true
 categories: ["Binary Exploitation","Pwn College"]
 tags: ["Buffer Overflow", "Static analysis","Canary Bypass"]
 toc: true
