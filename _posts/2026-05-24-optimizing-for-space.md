@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Optimizing for Space
-date: 2026-05-24 20:26 -0400
-published: false
+date: 2026-05-29 20:26 -0400
+published: true
 categories: ["Reversing Challenge","Pwn College"]
 tags: ["CIMG Images", "Static analysis"]
 toc: true
